@@ -1,10 +1,8 @@
 backend:
-  # Use netlify identity as backend
-  name: git-gateway
+  name: github
   branch: master
-  ### enable below lines for github integration ###
-  # name: github
-  # repo: surjithctly/neat-starter
+  repo: noahkiss/site-11ty-anenoma.com
+  base_url: https://decap-backend.goby-pike.ts.net
 media_folder: "src/static/img"
 public_folder: "/static/img"
 
